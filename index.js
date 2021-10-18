@@ -74,4 +74,4 @@ uniqueImports.map(libImport => {
 })
 
 const libsStr = libs.join("\n")
-fs.writeFileSync(__dirname + "/" + "result.txt", libsStr)
+console.log(libsStr)
